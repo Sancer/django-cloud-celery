@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "poc-gcp-django"
+version = "0.1.0"
+description = ""
+authors = ["Uriel Reina <urielreina@gmail.com>"]
+readme = "README.md"
+packages = [{include = "poc_gcp_django"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+django = "^4.2.7"
+google-cloud-tasks = "^2.14.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
